@@ -1,5 +1,823 @@
-<!DOCTYPE html>
-<html>
-<head><title>SonLam Apps</title></head>
-<body><h1>Welcome to SonLam Apps!</h1></body>
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Piano Phone app for Phone and Tablet</title>
+
+    <meta name="description" content="My Piano Phone is a piano app designed for phones and tablets. You can play music using a variety of instruments such as piano, guitar, organ, trumpet, violin, xylophone, saxophone and drums while enjoying vivid, authentic sound quality. Give it a try today!">
+    <meta name="author" content="SONLAM">
+
+    <link rel="shortcut icon" href="static/images/fav.png" type="image/png">
+
+    <link href="static/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="static/vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="static/vendor/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+    <link href="static/vendor/owl-carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="static/vendor/owl-carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="static/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="static/styles/landing.css" rel="stylesheet" media="screen">
+    <link href="static/styles/devices.css" rel="stylesheet" media="screen">
+    <link href="static/styles/responsive.css" rel="stylesheet" media="screen">
+    <link href="static/styles/preloader.css" rel="stylesheet" media="screen">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700'
+          rel='stylesheet' type='text/css'>
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar" data-offset="50">
+
+<!-- Preloader -->
+<div class="preloader preloader-bg-photo js-feature-preloader">
+    <table>
+        <tr>
+            <td>
+                <div class="preloader-icon spin"></div>
+                <div class="preloader-text">Page is loading...</div>
+
+                <div class="preloader-close js-preloader-warning">Loading takes a very long time.<br>You can close the preloader<br>
+                    <a href="javascript:void(0);" class="js-preloader-close"><div class="btn btn-sm btn-theme">CLOSE</div></a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div><!-- /Preloader -->
+
+<!-- Navigation -->
+<nav class="navbar navbar-fixed-top navbar-transparent right-side" role="navigation">
+    <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div id="main-navbar" class="collapse navbar-collapse">
+            <div class="app-icon">
+                <img src="static/images/icon/son_lam_icon.png" alt="App icon">
+            </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#landing-main" class="js-feature-scroll">Home</a></li>
+                <li><a href="#features" class="js-feature-scroll">Features</a></li>
+                <li><a href="#introvideo" class="js-feature-scroll">Introducing Video</a></li>
+                <li><a href="#screentour" class="js-feature-scroll">Screens</a></li>
+                <li><a href="#subscribe" class="js-feature-scroll">Subscribe Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav><!-- /Navigation -->
+
+<!-- Landing section -->
+<section id="landing-main" class="landing-auto bg-landing-photo relative" data-stellar-background-ratio="0.5">
+    <div class="landing">
+        <div class="container">
+            <div class="row">
+
+                <!-- Device -->
+                <div class="col-md-5 col-xs-12">
+                    <div id="carousel-device-ios" class="carousel-device device-mobile ios-iphone6-gold carousel slide" data-pause="false">
+                        <div class="carousel-inner carousel-inner-device img-screen-wrapper">
+                            <div class="item active">
+                                <img src="static/images/screenshots/ios-01.jpg" alt="My Piano Phone">
+                            </div>
+                            <div class="item">
+                                <img src="static/images/screenshots/ios-02.jpg" alt="My Piano Phone">
+                            </div>
+                            <div class="item">
+                                <img src="static/images/screenshots/ios-03.jpg" alt="My Piano Phone">
+                            </div>
+                        </div>
+                        <div class="highlight"></div>
+                        <a class="left carousel-control carousel-control-device" href="#carousel-device-ios" data-slide="prev"></a>
+                        <a class="right carousel-control carousel-control-device" href="#carousel-device-ios" data-slide="next"></a>
+                    </div>
+                </div><!-- /Device -->
+
+                <div class="col-md-7 col-xs-12 main-app-description right-side margin-vertical">
+                    <div class="app-icon">
+                        <img src="static/images/icon/my_piano_phone_icon.png" alt="App icon">
+                    </div>
+                    <h1 class="main-title text-white">My Piano Phone<br />SONLAM</h1>
+                    <div class="clearfix"></div>
+
+                    <p class="main-description text-white">My Piano Phone is a piano app designed for phones and tablets. You can play music using a variety of instruments such as piano, guitar, organ, trumpet, violin, xylophone, saxophone and drums while enjoying vivid, authentic sound quality. Give it a try today!</p>
+
+                    <p class="available-device text-white">Available for <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i></p>
+
+                    <div class="group-inline">
+                        <a href="https://itunes.apple.com/us/app/my-piano-phone/id963415606" target="_blank"><div class="btn-store btn-store-ios-white"></div></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.sonlam.mypianophone" target="_blank"><div class="btn-store btn-store-android-white"></div></a>
+                        <a href="https://apps.microsoft.com/detail/9wzdncrcx2lf" target="_blank"><div class="btn-store btn-store-wp-white"></div></a>
+                    </div>
+
+                    <p class="copyrights-landing text-white">© <a href="http://www.sonlam.com/">SONLAM</a>, 2013 - 2026. All rights reserved.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Lens flare -->
+    <div class="flare-wrapper">
+        <div class="flareRiseUp"></div>
+    </div><!-- /Lens flare -->
+
+</section><!-- /Landing section -->
+
+<!-- Features -->
+<section id="features" class="section-color">
+    <div class="container">
+
+        <div class="decorate-element-top right-side">
+            <div class="decorate-element-wrapper">
+                <div class="small-element-2"></div>
+                <div class="big-element-2"></div>
+                <a href="#features" class="element-link js-feature-scroll">
+                    <i class="fa fa-angle-down el-top animated fadeInDownPlus"></i>
+                    <i class="fa fa-angle-down el-mid animated fadeInDownPlus"></i>
+                    <i class="fa fa-angle-down el-bot animated fadeInDownPlus"></i>
+                </a>
+            </div>
+        </div>
+
+        <h2 class="text-center wow fadeIn">Features</h2>
+        <h5 class="text-center text-muted section-title wow fadeIn">Here are all the examples of Features section functionality</h5>
+
+        <!-- Simple features section -->
+        <div class="row features-simple">
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow bounceIn">
+                <div class="spec-icon"><i class="fa fa-child"></i></div>
+                <h3>10 Instruments</h3>
+                <p>Acoustic Piano, Electric Piano, Acoustic Guitar, Electric Guitar, Organ, Trumpet, Violin, Saxophone, Bell and Drum.</p>
+            </div>
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow bounceIn" data-wow-delay="0.2s">
+                <div class="spec-icon"><i class="fa fa-code"></i></div>
+                <h3>Full Keyboard</h3>
+                <p>Full Piano keyboard with one or two bars and change the number keys on screen.</p>
+            </div>
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow bounceIn" data-wow-delay="0.4s">
+                <div class="spec-icon"><i class="fa fa-star"></i></div>
+                <h3>Lifelike Sound</h3>
+                <p>Sound emanating from this application are true music. It's lifelike and realistic sound.</p>
+            </div>
+            <div class="col-md-3 col-md-offset-0 col-xs-10 col-xs-offset-1 margin-vertical wow bounceIn" data-wow-delay="0.6s">
+                <div class="spec-icon"><i class="fa fa-cog fa-spin"></i></div>
+                <h3>Music Update</h3>
+                <p>Many songs available in this app and music store is constantly being update.</p>
+            </div>
+        </div><!-- /Simple features section -->
+
+        <div class="v-indent-120"></div>
+
+        <!-- Supported devices -->
+        <h3 class="text-center wow fadeIn">Supported devices</h3>
+        <h5 class="text-center text-muted section-title wow fadeIn">Phone and Tablet running iOS, Android and Windows platform!</h5>
+
+        <div class="row">
+            <div class="col-xs-12 device-accordion js-device-accordion">
+                <div class="device-mobile device-mobile-2 android-nexus5-black shadow wow fadeInRight">
+                    <div class="img-screen-wrapper">
+                        <img src="static/images/screenshots/ios-02.jpg" alt="My Piano Phone">
+                    </div>
+                    <div class="highlight"></div>
+                </div>
+
+                <div class="device-mobile device-mobile-1 ios-iphone6plus-gold shadow">
+                    <div class="img-screen-wrapper">
+                        <img src="static/images/screenshots/ios-01.jpg" alt="My Piano Phone">
+                    </div>
+                    <div class="highlight"></div>
+                </div>
+
+                <div class="device-mobile device-mobile-3 windowsphone-lumia-red shadow wow fadeInLeft">
+                    <div class="img-screen-wrapper">
+                        <img src="static/images/screenshots/wp-03.jpg" alt="My Piano Phone">
+                    </div>
+                    <div class="highlight"></div>
+                </div>
+            </div>
+        </div>
+        <h5 class="text-center wow fadeIn">Nexus, iPhone and Lumia</h5><!-- /Supported devices -->        
+
+        <div class="v-indent-120"></div>
+
+        <!-- Interactive specifications -->
+        <h3 class="text-center wow fadeIn">Interactive specifications</h3>
+        <h5 class="text-center text-muted section-title wow fadeIn">Hover on the specification's blocks</h5>
+        <div class="row js-interactive-spec">
+            <div class="col-md-4 col-xs-12 margin-vertical wow fadeInLeft" data-wow-duration="1s">
+                <div class="features-specification left-side">
+                    <div class="spec-icon"><i class="fa fa-child"></i></div>
+                    <h3>10 Instruments</h3>
+                    <p>Acoustic Piano, Electric Piano, Acoustic Guitar, Electric Guitar, Organ, Trumpet, Violin, Saxophone, Bell and Drum.</p>
+                </div>
+                <div class="features-specification left-side">
+                    <div class="spec-icon"><i class="fa fa-code"></i></div>
+                    <h3>Full Keyboard</h3>
+                    <p>Full Piano keyboard with one or two bars and change the number keys on screen.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 wow zoomInUp" data-wow-duration="2s">
+
+                <div class="device-mobile android-nexus5-black shadow fix-center">
+                    <div class="img-screen-wrapper">
+                        <img src="static/images/screenshots/ios-02.jpg" alt="My Piano Phone">
+
+                        <!-- "Hop spots" -->
+                        <div class="spec-icon-interactive" style="left:100%; top:66%;">
+                            <div class="spec-icon-animation"></div>
+                            <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="top" title="10 Instruments"><i class="fa fa-child animated rubberBand"></i></div>
+                        </div>
+                        <div class="spec-icon-interactive" style="left:55%; top:30%;">
+                            <div class="spec-icon-animation"></div>
+                            <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="top" title="Full Keyboard"><i class="fa fa-code animated rubberBand"></i></div>
+                        </div>
+                        <div class="spec-icon-interactive" style="left:20%; top:50%;">
+                            <div class="spec-icon-animation"></div>
+                            <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="top" title="Lifelike Sound"><i class="fa fa-star animated rubberBand"></i></div>
+                        </div>
+                        <div class="spec-icon-interactive" style="left:88%; top:88%;">
+                            <div class="spec-icon-animation"></div>
+                            <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="top" title="Music Update"><i class="fa fa-cog animated rubberBand"></i></div>
+                        </div><!-- /"Hop spots" -->
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12 margin-vertical wow fadeInRight" data-wow-duration="1s">
+                <div class="features-specification right-side">
+                    <div class="spec-icon"><i class="fa fa-star"></i></div>
+                    <h3>Lifelike Sound</h3>
+                    <p>Sound emanating from this application are true music. It's lifelike and realistic sound.</p>
+                </div>
+                <div class="features-specification right-side">
+                    <div class="spec-icon"><i class="fa fa-cog fa-spin"></i></div>
+                    <h3>Music Update</h3>
+                    <p>Many songs available in this app and music store is constantly being update.</p>
+                </div>
+            </div>
+        </div><!-- /Interactive specifications -->
+
+        <div class="v-indent-120"></div>
+
+        <!-- Interactive specifications -->
+        <h3 class="text-center wow fadeIn">Interactive specifications compatible with tablet</h3>
+        <h5 class="text-center text-muted section-title wow fadeIn">Hover on the specification's blocks</h5>
+        <div class="row js-interactive-spec">
+
+            <div class="col-md-6 col-xs-12 wow fadeInLeft">
+
+                <div class="device-tablet ios-tablet-air-white shadow">
+                    <div class="img-screen-wrapper">
+                        <img src="static/images/screenshots/ios-tablet.jpg" alt="My Piano Phone">
+
+                        <!-- "Hop spots" -->
+                        <div class="spec-icon-interactive" style="left:100%; top:66%;">
+                            <div class="spec-icon-animation"></div>
+                            <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="top" title="10 Instruments"><i class="fa fa-child animated rubberBand"></i></div>
+                        </div>
+                        <div class="spec-icon-interactive" style="left:55%; top:30%;">
+                            <div class="spec-icon-animation"></div>
+                            <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="top" title="Full Keyboard"><i class="fa fa-code animated rubberBand"></i></div>
+                        </div>
+                        <div class="spec-icon-interactive" style="left:20%; top:50%;">
+                            <div class="spec-icon-animation"></div>
+                            <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="top" title="Lifelike Sound"><i class="fa fa-star animated rubberBand"></i></div>
+                        </div><!-- /"Hop spots" -->
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-xs-12 margin-vertical wow fadeInRight">
+                <div class="features-specification right-side">
+                    <div class="spec-icon"><i class="fa fa-child"></i></div>
+                    <h3>10 Instruments</h3>
+                    <p>Acoustic Piano, Electric Piano, Acoustic Guitar, Electric Guitar, Violin, Trumpet and Drum.</p>
+                </div>
+                <div class="features-specification right-side">
+                    <div class="spec-icon"><i class="fa fa-code"></i></div>
+                    <h3>Full Keyboard</h3>
+                    <p>Full Piano keyboard with one or two bars and change the number keys on screen.</p>
+                </div>
+                <div class="features-specification right-side">
+                    <div class="spec-icon"><i class="fa fa-star"></i></div>
+                    <h3>Lifelike Sound</h3>
+                    <p>Sound emanating from this application are true music. It's lifelike and realistic sound.</p>
+                </div>
+            </div>
+        </div><!-- /Interactive specifications -->
+
+        <div class="v-indent-120"></div>
+
+        <!-- Interactive screen -->
+        <h3 class="text-center wow fadeIn">Interactive screen</h3>
+        <h5 class="text-center text-muted section-title wow fadeIn">A mini guide to your app with hot spots. Click on the icons to see more more details.</h5>
+
+        <div class="row js-interactive-screen">
+            <div class="col-lg-10 col-lg-offset-1 col-sm-12 col-sm-offset-0">
+
+                <div class="col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0 wow fadeInLeft" data-wow-duration="2s">
+                    <div id="carousel-interactive" class="carousel slide" data-ride="carousel">
+
+                        <div class="device-mobile android-nexus5-white shadow interactive-screen">
+                            <div class="carousel-inner img-screen-wrapper">
+
+                                <div class="item active">
+                                    <img src="static/images/screenshots/ios-01.jpg" alt="My Piano Phone">
+                                    <!-- "Hop spots" -->
+                                    <div class="spec-icon-interactive" style="left:90%; top:66%;">
+                                        <div class="spec-icon-animation"></div>
+                                        <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="left" title="10 Instruments">
+                                            <i class="fa fa-child"></i>
+                                        </div>
+                                    </div>
+                                    <div class="spec-icon-interactive" style="left:20%; top:50%;">
+                                        <div class="spec-icon-animation"></div>
+                                        <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="bottom" title="Lifelike Sound">
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                    </div><!-- /"Hop spots" -->
+                                </div>
+
+                                <div class="item">
+                                    <img src="static/images/screenshots/ios-02.jpg" alt="My Piano Phone">
+                                    <!-- "Hop spots" -->
+                                    <div class="spec-icon-interactive" style="left:55%; top:30%;">
+                                        <div class="spec-icon-animation"></div>
+                                        <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="top" title="Full Keyboard">
+                                            <i class="fa fa-code"></i>
+                                        </div>
+                                    </div>
+                                    <div class="spec-icon-interactive" style="left:88%; top:88%;">
+                                        <div class="spec-icon-animation"></div>
+                                        <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="left" title="Music Update">
+                                            <i class="fa fa-cog fa-spin"></i>
+                                        </div>
+                                    </div><!-- /"Hop spots" -->
+                                </div>
+
+                                <div class="item">
+                                    <img src="static/images/screenshots/ios-03.jpg" alt="My Piano Phone">
+                                    <!-- "Hop spots" -->
+                                    <div class="spec-icon-interactive" style="left:35%; top:61%;">
+                                        <div class="spec-icon-animation"></div>
+                                        <div class="spec-icon js-feature-tooltip" data-toggle="tooltip" data-placement="bottom" title="Drumset">
+                                            <i class="fa fa-heart"></i>
+                                        </div>
+                                    </div><!-- /"Hop spots" -->
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carousel-interactive" data-slide="prev"></a>
+                        <a class="right carousel-control" href="#carousel-interactive" data-slide="next"></a>
+                    </div>
+                </div>
+
+                <div class="col-md-7 col-xs-12 interactive-screen-info margin-vertical">
+                    <div class="features-specification-fixed right-side wow fadeIn">
+                        <h3>Interactive Carousel</h3>
+                        <div class="separator"></div>
+                        <p>Use this interactive carousel to guide users through your application showing as much as possible. <strong>Click on any icon</strong> to immediately see the details.</p>
+                    </div>
+                    <!-- Hidden/Interactive divs (Visible on small screen) -->
+                    <div class="features-specification right-side animated flipInY">
+                        <div class="spec-icon"><i class="fa fa-child"></i></div>
+                        <h3>10 Instruments</h3>
+                        <p>Acoustic Piano, Electric Piano, Acoustic Guitar, Electric Guitar, Organ, Trumpet, Violin, Saxophone, Bell and Drum.</p>
+                    </div>
+                    <div class="features-specification right-side animated flipInY">
+                        <div class="spec-icon"><i class="fa fa-code"></i></div>
+                        <h3>Full Keyboard</h3>
+                        <p>Full Piano keyboard with one or two bars and change the number keys on screen.</p>
+                    </div>
+                    <div class="features-specification right-side animated flipInY">
+                        <div class="spec-icon"><i class="fa fa-star"></i></div>
+                        <h3>Lifelike Sound</h3>
+                        <p>Sound emanating from this application are true music. It's lifelike and realistic sound.</p>
+                    </div>
+                    <div class="features-specification right-side animated flipInY">
+                        <div class="spec-icon"><i class="fa fa-cog fa-spin"></i></div>
+                        <h3>Music Update</h3>
+                        <p>Many songs available in this app and music store is constantly being update.</p>
+                    </div>
+                    <div class="features-specification right-side animated flipInY">
+                        <div class="spec-icon"><i class="fa fa-heart"></i></div>
+                        <h3>Drumset</h3>
+                        <p>Drumset available in My Piano Phone.</p>
+                    </div>
+                    <!-- /Hidden/Interactive divs -->
+                </div>
+
+            </div>
+        </div><!-- /Interactive screen -->
+
+        <div class="v-indent-120"></div>
+
+        <h3 class="text-center wow fadeIn">More Feature</h3>
+        <h5 class="text-center text-muted section-title wow fadeIn">line of screenshots</h5>
+        <div class="row">
+            <div class="col-xs-12">
+
+                <div id="viewport" class="screens-wrapper">
+
+                    <div class="js-feature-jparallax line-03 wow bounceInUp" data-wow-delay="1s">
+                        <img src="static/images/screenshots/wp-04.jpg" alt="My Piano Phone" class="pull-left">
+                        <img src="static/images/screenshots/wp-05.jpg" alt="My Piano Phone" class="pull-right">
+                    </div>
+
+                    <div class="js-feature-jparallax line-02 wow bounceInUp" data-wow-delay="0.5s">
+                        <img src="static/images/screenshots/wp-02.jpg" alt="My Piano Phone" class="pull-left">
+                        <img src="static/images/screenshots/wp-03.jpg" alt="My Piano Phone" class="pull-right">
+                    </div>
+
+                    <div class="js-feature-jparallax line-01 wow bounceInUp">
+                        <div class="device-mobile windowsphone-lumia-blue shadow carousel slide" data-ride="carousel" data-pause="false">
+                            <div class="carousel-inner img-screen-wrapper">
+                                <div class="item active">
+                                    <img src="static/images/screenshots/wp-01.jpg" alt="My Piano Phone">
+                                </div>
+                                <div class="item">
+                                    <img src="static/images/screenshots/wp-02.jpg" alt="My Piano Phone">
+                                </div>
+                            </div>
+                            <div class="highlight"></div>
+                            <!-- Badges -->
+                            <ul class="badge-wrapper right-side">
+                                <li class="wow swing"><img src="static/images/badges/51.png" alt="My Piano Phone"></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-xs-10 col-xs-offset-1 text-center wow fadeIn">
+                    <h4>Some words about design</h4>
+                    <p>Applications have a simple design, ease of use is a trend.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="v-indent-120"></div>
+
+        <!-- Interactive combining the devices -->
+        <h3 class="text-center wow fadeIn">Interactive combining the devices</h3>
+        <h5 class="text-center text-muted section-title wow fadeIn">This application allows you to combining devices.</h5>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-0 col-xs-10 col-xs-offset-1 wow fadeIn">
+                <div class="features-specification left-side text-to-left margin-vertical">
+                    <h4>Works on all devices</h4>
+                    <p>Don't worry because all your devices will be available.</p>
+                    <ul class="check-list">
+                        <li>iOS</li>
+                        <li>Android</li>
+                        <li>Windows</li>
+                    </ul>                        
+                </div>
+            </div>
+            <div class="col-md-7 col-xs-12 device-accordion js-device-accordion">
+
+                <div class="device-mobile device-mobile-1 ios-iphone5s-black shadow carousel slide wow fadeInRight" data-ride="carousel" data-pause="false" >
+                    <div class="carousel-inner img-screen-wrapper">
+                        <div class="item active">
+                            <img src="static/images/screenshots/ios-01.jpg" alt="My Piano Phone">
+                        </div>
+                        <div class="item">
+                            <img src="static/images/screenshots/ios-02.jpg" alt="My Piano Phone">
+                        </div>
+                    </div>
+                    <div class="highlight"></div>
+                </div>
+
+                
+                <div class="device-mobile device-mobile-2 android-nexus5-white shadow carousel slide wow fadeInRight" data-ride="carousel" data-pause="false" data-wow-delay="0.5s">
+                    <div class="carousel-inner img-screen-wrapper">
+                        <div class="item active">
+                            <img src="static/images/screenshots/ios-02.jpg" alt="My Piano Phone">
+                        </div>
+                        <div class="item">
+                            <img src="static/images/screenshots/ios-03.jpg" alt="My Piano Phone">
+                        </div>
+                    </div>
+                    <div class="highlight"></div>
+                    <!-- Badges -->
+                    <ul class="badge-wrapper right-bot-side">
+                        <li class="wow swing"><img src="static/images/badges/66.png" alt="My Piano Phone"></li>
+                    </ul>
+                </div>
+
+                <div class="device-mobile device-mobile-3 windowsphone-lumia-red shadow carousel slide wow fadeInRight" data-ride="carousel" data-pause="false" data-wow-delay="1s">
+                    <div class="carousel-inner img-screen-wrapper">
+                        <div class="item active">
+                            <img src="static/images/screenshots/wp-03.jpg" alt="My Piano Phone">
+                        </div>
+                        <div class="item">
+                            <img src="static/images/screenshots/wp-01.jpg" alt="My Piano Phone">
+                        </div>
+                    </div>
+                    <div class="highlight"></div>
+                </div>
+
+            </div>
+        </div><!-- /Interactive combining the devices -->
+
+        <div class="v-indent-120"></div>
+
+        <!-- Tablets -->
+        <h3 class="text-center wow fadeIn">Tablet Support for iOS, Android, Windows.</h3>
+        <h5 class="text-center text-muted section-title wow fadeIn">Portrait and Landscape: iPad, Nexus, Windows</h5>
+        <div class="row">
+            <div class="col-lg-8 col-xs-12 device-accordion js-device-accordion">
+                <div class="device-tablet device-tablet-1 ios-tablet-air-white carousel slide carousel-fade shadow wow fadeInLeft" data-ride="carousel" data-pause="false" data-wow-delay="0.5s"><!-- Select tablet device -->
+                    <div class="carousel-inner img-screen-wrapper">
+                        <div class="item active">
+                            <img src="static/images/screenshots/ios-tablet.jpg" alt="My Piano Phone">
+                        </div>
+                    </div>
+                    <div class="highlight"></div>
+                </div>
+                <div class="device-tablet device-tablet-2 android-tablet-nexus10 shadow wow fadeInLeft"><!-- Select tablet device -->
+                    <div class="img-screen-wrapper">
+                        <img src="static/images/screenshots/android-tablet.jpg" alt="My Piano Phone">
+                    </div>
+                    <div class="highlight"></div>
+                    <!-- Badges -->
+                    <ul class="badge-wrapper right-side">
+                        <li class="wow swing"><img src="static/images/badges/51.png" alt="My Piano Phone"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-lg-offset-0 col-md-10 col-md-offset-1 wow fadeIn">
+                <div class="features-specification right-side text-to-left margin-vertical">
+                    <h3>Tablet Support</h3>
+                    <p>My Piano Phone supports tablet devices for all three OS:
+                    <ul class="check-list">
+                        <li>iOS</li>
+                        <li>Android</li>
+                        <li>Windows</li>
+                    </ul>
+                    <p class="available-device">Available for <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i></p>
+                </div>
+            </div>
+        </div><!-- /Tablets -->
+
+        <div class="v-indent-120"></div>
+
+        <h3 class="text-center wow fadeIn">Tablet accordion.</h3>
+        <h5 class="text-center text-muted section-title wow fadeIn">Landscape to play</h5>
+        <div class="row">
+            <div class="col-xs-12 col-lg-12 device-accordion js-device-accordion">
+                <div class="device-tablet-landscape device-tablet-1 ios-tablet-air-white-landscape shadow carousel slide shadow wow fadeInRight" data-ride="carousel" data-pause="false"><!-- Select tablet device -->
+                    <div class="carousel-inner img-screen-wrapper">
+                        <div class="item active">
+                            <img src="static/images/screenshots/ios-tablet-landscape.jpg" alt="My Piano Phone">
+                        </div>
+                        <div class="item">
+                            <img src="static/images/screenshots/ios-tablet-landscape_02.jpg" alt="My Piano Phone">
+                        </div>
+                    </div>
+                    <div class="highlight"></div>                    
+                </div>
+                <div class="device-tablet-landscape device-tablet-2 android-tablet-nexus10-landscape shadow carousel slide shadow wow fadeInRight" data-ride="carousel" data-pause="false" data-wow-delay="0.5s"><!-- Select tablet device -->
+                    <div class="carousel-inner img-screen-wrapper">
+                        <div class="item active">
+                            <img src="static/images/screenshots/android-tablet-landscape.jpg" alt="My Piano Phone">
+                        </div>
+                        <div class="item">
+                            <img src="static/images/screenshots/android-tablet-landscape_02.jpg" alt="My Piano Phone">
+                        </div>
+                    </div>
+                    <div class="highlight"></div>
+                </div>
+                <div class="device-tablet-landscape device-tablet-3 windowsphone-tablet-lumia-landscape shadow carousel slide shadow wow fadeInRight" data-ride="carousel" data-pause="false" data-wow-delay="1s"><!-- Select tablet device -->
+                    <div class="carousel-inner img-screen-wrapper">
+                        <div class="item active">
+                            <img src="static/images/screenshots/wp-tablet-landscape.jpg" alt="My Piano Phone">
+                        </div>
+                        <div class="item">
+                            <img src="static/images/screenshots/wp-tablet-landscape_02.jpg" alt="My Piano Phone">
+                        </div>
+                    </div>
+                    <div class="highlight"></div>
+                </div>
+            </div>
+        </div><!-- /Tablets -->
+
+        <div class="v-indent-120"></div>
+
+        <div class="decorate-element-bot right-side">
+            <div class="decorate-element-wrapper">
+                <div class="small-element-1"></div>
+                <div class="big-element-1"></div>
+                <a href="#features" class="element-link js-feature-scroll">
+                    <i class="fa fa-angle-up el-top animated fadeInUpPlus"></i>
+                    <i class="fa fa-angle-up el-mid animated fadeInUpPlus"></i>
+                    <i class="fa fa-angle-up el-bot animated fadeInUpPlus"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section><!-- /Features -->
+
+<!-- Video -->
+<section id="introvideo" class="section-video js-feature-video relative" data-stellar-background-ratio="0.7">
+    <div class="container">
+        <h2 class="text-center section-title text-white">Introducing Video</h2>
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 col-xs-12 col-xs-offset-0 wow zoomIn">
+            	<iframe width="500" height="281" src="https://www.youtube.com/embed/N2uBR00STGk?list=UUc89ygeQGyVz_mXWfVLh0iQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="flare-wrapper">
+        <div class="flareUp"></div>
+    </div>
+</section><!-- /Video -->
+
+<!-- Screentour -->
+<section id="screentour" class="section-color">
+    <div class="container">
+        <h2 class="text-center section-title wow fadeIn">Screentour</h2>
+        <div class="row">
+            <div class="col-xs-12 wow fadeInUp">
+                <div class="js-feature-carousel screentour" data-items="4">
+                    <div>
+                        <a class="js-feature-fancybox" rel="group" href="static/images/screenshots/wp-01.jpg">
+                            <img src="static/images/screenshots/wp-01.jpg" alt="My Piano Phone">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="js-feature-fancybox" rel="group" href="static/images/screenshots/wp-02.jpg">
+                            <img src="static/images/screenshots/wp-02.jpg" alt="My Piano Phone">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="js-feature-fancybox" rel="group" href="static/images/screenshots/wp-03.jpg">
+                            <img src="static/images/screenshots/wp-03.jpg" alt="My Piano Phone">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="js-feature-fancybox" rel="group" href="static/images/screenshots/wp-04.jpg">
+                            <img src="static/images/screenshots/wp-04.jpg" alt="My Piano Phone">
+                        </a>
+                    </div>
+                    <div>
+                        <a class="js-feature-fancybox" rel="group" href="static/images/screenshots/wp-05.jpg">
+                            <img src="static/images/screenshots/wp-05.jpg" alt="My Piano Phone">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section><!-- /Screentour -->
+
+<!-- Section with slogan -->
+<section class="section-slogan section-color">
+    <div class="slogan-bg" data-stellar-background-ratio="0.9">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-sm-6 col-xs-12 text-white text-slogan margin-vertical wow fadeInLeft">
+                    <h2>
+                        <br>Lifelike<br>and<br>Realistic
+                    </h2>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                    <div class="device-mobile windowsphone-lumia-blue device-slogan wow fadeInUp">
+                        <div class="img-screen-wrapper">
+                            <img src="static/images/screenshots/wp-01.jpg" alt="My Piano Phone">
+                        </div>
+                        <!-- Badges -->
+                        <ul class="badge-wrapper right-side">
+                            <li class="wow swing"><img src="static/images/badges/51.png" alt="My Piano Phone"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- /Section with slogan -->
+
+<!-- Section with reviews, app market buttons, subscribe -->
+<section class="section-color">
+    <div class="container">
+        <!-- Reviews -->
+        <div class="reviews wow flipInY">
+            <div id="carousel-reviews" class="carousel slide carousel-reviews">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="row">
+                            <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                                <div class="col-lg-4 col-md-12 col-xs-12 reviewer">
+                                    <img src="static/images/logo_windows_phone.png" alt="reviewer" class="img-responsive">
+                                </div>
+                                <div class="col-lg-8 col-md-12 col-xs-12 review">
+                                    <div class="review-wrapper">
+                                        <p>"My Piano Phone is the best Piano app for phone"</p>
+                                        <p class="review-rating">
+                                            <span>Windows Store</span>
+                                            <i class="fa fa-star full-star"></i>
+                                            <i class="fa fa-star full-star"></i>
+                                            <i class="fa fa-star full-star"></i>
+                                            <i class="fa fa-star full-star"></i>
+                                            <i class="fa fa-star full-star"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /Reviews -->
+
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <!-- App Marker buttons -->
+                <h4 class="wow fadeIn">You can download my other apps from any marketplace</h4>
+                <div class="group-inline btn-store-inverse">
+                    <a href="https://itunes.apple.com/us/developer/son-lam/id963415605" class="wow fadeInUp" target="_blank"><div class="btn-store btn-store-ios-black"></div></a>
+                    <a href="https://play.google.com/store/apps/developer?id=SONLAM" class="wow fadeInUp" target="_blank"><div class="btn-store btn-store-android-black"></div></a>
+                    <a href="https://apps.microsoft.com/search/publisher?name=Son+Lam" class="wow fadeInUp" target="_blank"><div class="btn-store btn-store-wp-black"></div></a>
+                </div>
+                <p class="available-device wow fadeInDown">Available for <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i></p>
+
+                <div class="v-indent-40"></div>
+
+                <!-- Social icons -->
+                <ul class="social-icons inverse wow fadeInUp" data-wow-offset="100">
+                    <li class="facebook"><a href="https://www.facebook.com/SonLamPage" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/user/SonLamPage" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+
+                <!-- Subscribe -->
+                <div id="subscribe" class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2 wow pulse" data-wow-offset="100">
+                    <h4>or subscribe us:</h4>
+                    <form role="form" class="js-feature-subscribe" action="/action/subscribe.php" method="post">
+                        <div class="form-group">
+                            <label for="subscribe-form-email" class="sr-only">Email address</label>
+                            <input type="email" name="email" class="form-control text-center js-check-email" required="required" id="subscribe-form-email" placeholder="Enter your email">
+                        </div>
+                        <button type="submit" class="btn btn-theme">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- /Section with reviews, app market buttons, subscribe -->
+
+<!-- Footer -->
+<section class="footer">
+    <h6 class="sr-only">Footer</h6>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="group-inline">
+                    <div class="footer-copyrights">Copyright 2013 - 2026 © <a href="http://www.sonlam.com">SONLAM</a></div>
+                    <ul class="footer-menu">
+                        <li><a href="https://www.facebook.com/SonLamPage" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/user/SonLamPage" target="_blank">Youtube</a></li>
+                        <li><a href="https://plus.google.com/+SonLamPage" target="_blank">Google+</a></li>
+                    </ul>
+                    <div class="footer-last">
+                        <ul class="footer-menu">
+                            <li><a href="#landing-main" class="js-feature-scroll">Go to top</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- /Footer -->
+
+<script src="static/vendor/requirejs/require.js"></script>
+<script src="static/scripts/config.js"></script>
+<script>
+    require([
+        'feature/scroll',
+        'feature/wow',
+        'feature/preloader',
+        'feature/fancybox',
+        'feature/fullscreen',
+        'feature/menu',
+        'feature/navigation',
+        'feature/parallax',
+        'feature/jparallax',
+        'feature/subscribe',
+        'feature/tooltip',
+        'feature/video',
+        'feature/i-specs',
+        'feature/i-screen',
+        'feature/carousel',
+        'feature/accordion'
+    ]);
+</script>
+</body>
 </html>
